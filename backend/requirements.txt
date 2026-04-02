@@ -1,0 +1,17 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+alembic
+psycopg2-binary
+python-jose[cryptography]
+passlib[bcrypt]
+bcrypt==4.0.1
+pydantic-settings
+python-multipart
+email-validator
+black
+ruff
+pytest
+httpx
+ollamafreeapi
+ollama

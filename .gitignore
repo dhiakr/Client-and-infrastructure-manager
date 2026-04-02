@@ -1,0 +1,28 @@
+# Workspace-local backups
+.git-backups/
+
+# Local tooling
+.qodo/
+.vscode/
+.idea/
+
+# Archives and logs
+*.rar
+*.log
+
+# Python backend
+backend/.env
+backend/.venv/
+backend/.pytest_cache/
+backend/.ruff_cache/
+backend/**/__pycache__/
+backend/**/*.pyc
+
+# Node frontend
+frontend/.env.local
+frontend/node_modules/
+frontend/.next/
+frontend/next-env.d.ts
+
+# OS files
+.DS_Store
